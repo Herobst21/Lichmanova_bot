@@ -1,0 +1,4 @@
+pay.193-188-23-254.sslip.io {
+    encode zstd gzip
+    reverse_proxy app-web:8080
+}
